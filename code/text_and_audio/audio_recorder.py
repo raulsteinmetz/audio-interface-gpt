@@ -48,10 +48,10 @@ class AudioRecorder:
 
 def usage_example():
     recorder = AudioRecorder()
-    recorder.start()  # Start recording
+    recorder.start()
     sleep(3)
-    recorder.stop()  # Stop recording
-    recorder.save('opa.wav') # save
+    recorder.stop()
+    recorder.save('opa.wav')
 
 
 if __name__ == '__main__':
